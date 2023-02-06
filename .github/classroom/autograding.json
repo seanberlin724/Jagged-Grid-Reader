@@ -1,0 +1,115 @@
+{
+	"tests": [
+	{
+		"name": "Minimum Points",
+		"setup": "",
+		"run": "echo Minimum Points",
+		"input": "",
+		"output": "",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 50
+	},
+	{
+		"name": "Test Heads/Tails filename",
+		"setup": "javac JaggedGridReaderTester.java",
+		"run": "timeout 5 java JaggedGridReaderTester 0 .github/testfiles/heads.txt",
+		"input": "",
+		"output": "Test 0: PASS",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 2.5
+	},
+	{
+		"name": "Test Heads/Tails toString()",
+		"setup": "javac JaggedGridReaderTester.java",
+		"run": "timeout 5 java JaggedGridReaderTester 1 .github/testfiles/heads.txt",
+		"input": "",
+		"output": "Test 1: PASS",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 2.5
+	},
+	{
+		"name": "Test Heads/Tails getCopy()",
+		"setup": "javac JaggedGridReaderTester.java",
+		"run": "timeout 5 java JaggedGridReaderTester 2 .github/testfiles/heads.txt",
+		"input": "",
+		"output": "Test 2: PASS",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 2.5
+	},
+	{
+		"name": "Test Heads/Tails getCopy matches toString()",
+		"setup": "javac JaggedGridReaderTester.java",
+		"run": "timeout 5 java JaggedGridReaderTester 3 .github/testfiles/heads.txt",
+		"input": "",
+		"output": "All tests PASSED for file: .github/testfiles/heads.txt",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 2.5
+	},	
+	{
+		"name": "Test Rock Paper Scissors",
+		"setup": "javac JaggedGridReaderTester.java",
+		"run": "timeout 5 java JaggedGridReaderTester .github/testfiles/rps.txt",
+		"input": "",
+		"output": "All tests PASSED for file: .github/testfiles/rps.txt",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 7.5
+	},
+	{
+		"name": "Test Rock Paper Scissors w/score",
+		"setup": "javac JaggedGridReaderTester.java",
+		"run": "timeout 5 java JaggedGridReaderTester .github/testfiles/rps-score.txt",
+		"input": "",
+		"output": "All tests PASSED for file: .github/testfiles/rps-score.txt",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 7.5
+	},	
+	{
+		"name": "Test Tic-Tac-Toe",
+		"setup": "javac JaggedGridReaderTester.java",
+		"run": "timeout 5 java JaggedGridReaderTester .github/testfiles/tictactoe.txt",
+		"input": "",
+		"output": "All tests PASSED for file: .github/testfiles/tictactoe.txt",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 7.5
+	},
+	{
+		"name": "Test sudoku",
+		"setup": "javac JaggedGridReaderTester.java",
+		"run": "timeout 5 java JaggedGridReaderTester .github/testfiles/sudoku.txt",
+		"input": "",
+		"output": "All tests PASSED for file: .github/testfiles/sudoku.txt",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 7.5
+	},
+	{
+		"name": "Test 4",
+		"setup": "javac GameFileTester.java",
+		"run": "timeout 5 java GameFileTester",
+		"input": "",
+		"output": "",
+		"comparison": "included",
+		"timeout": 1,
+		"points": 10
+	},
+	{
+		"name": "Extra credit",
+		"setup": "javac GameFileTester.java",
+		"run": "timeout 5 java GameFileTester",
+		"input": "",
+		"output": "EXTRA CREDIT",
+		"comparison": "included",
+		"timeout": 5,
+		"points": 1,
+		"extra": true
+	}
+	]
+}
