@@ -1,7 +1,7 @@
 public class GameFileTester {
     public static void main(String[] args) {
         // Create a new GridReader object
-        String filename = "Connect Four (winning state).txt";
+        String filename = "heads.txt";
         JaggedGridReader jaggedGrid = new JaggedGridReader(filename);
 
         // Display grid
