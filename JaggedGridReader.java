@@ -11,7 +11,7 @@ public class JaggedGridReader {
     // Constructor
     public JaggedGridReader(String fileName) {// store the filename, read the specified file and convert it
         // to a two dimensional array of characters and store it in the grid field
-
+        this.fileName = fileName;
         try {
             // Scanner object to read file
             Scanner fileScanner = new Scanner(new File(fileName));
