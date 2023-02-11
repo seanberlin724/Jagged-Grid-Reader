@@ -51,22 +51,35 @@ public class JaggedGridReader {
     }
 
     public char[][] getCopy() {// return a deep copy of the grid or null if the file specified was not found
-        if (fileName == null) {
-            return null;
-        } else {
-            char[][] copy = new char[grid.length][]; // only need to initialize # of rows
-            // char[][] copy = new char[grid.length][grid[0].length]; // Initialize new 2D
-            // array to store copy
-
-            // copy the grid
-            for (int i = 0; i < grid.length; i++) {
-                for (int j = 0; j < grid[i].length; j++) {
-                    copy[i][j] = grid[i][j];
-                }
-            }
-            return copy;
+        if (grid == null) {
+            return null; // return null if grid is null
         }
+        char[][] copy = new char[grid.length][];
+        for (int i = 0; i < grid.length; i++) {
+            copy[i] = grid[i].clone();
+        }
+        return copy;
     }
+    /*
+     * if (fileName == null) {
+     * return null;
+     * } else {
+     * char[][] copy = new char[grid.length][]; // only need to initialize # of rows
+     * // char[][] copy = new char[grid.length][grid[0].length]; // Initialize new
+     * 2D
+     * // array to store copy
+     * 
+     * // copy the grid
+     * for (int i = 0; i < grid.length; i++) {
+     * copy[i] = grid[i].clone();
+     * /*
+     * for (int j = 0; j < grid[i].length; j++) {
+     * copy[i][j] = grid[i][j];
+     * }
+     */
+
+    // }
+    // }
 
     public String getFileName() {// return the file name specified on construction
         return fileName;
