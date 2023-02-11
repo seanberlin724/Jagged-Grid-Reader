@@ -41,7 +41,7 @@ public class JaggedGridReader {
         String gridString = "";
         for (int i = 0; i < grid.length; i++) // Add the grid to string
         {
-            for (int j = 0; j < grid[0].length; j++) {
+            for (int j = 0; j < grid[i].length; j++) {
                 gridString += grid[i][j] + "";
             }
             gridString += "\n";
@@ -53,11 +53,13 @@ public class JaggedGridReader {
         if (fileName == null) {
             return null;
         } else {
-            char[][] copy = new char[grid.length][grid[0].length]; // Initialize new 2D array to store copy
+            char[][] copy = new char[grid.length][]; // only need to initialize # of rows
+            // char[][] copy = new char[grid.length][grid[0].length]; // Initialize new 2D
+            // array to store copy
 
             // copy the grid
             for (int i = 0; i < grid.length; i++) {
-                for (int j = 0; j < grid[0].length; j++) {
+                for (int j = 0; j < grid[i].length; j++) {
                     copy[i][j] = grid[i][j];
                 }
             }
