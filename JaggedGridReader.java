@@ -7,6 +7,7 @@ public class JaggedGridReader {
     private char[][] grid;
     private String fileName;
 
+    //
     // Constructor
     public JaggedGridReader(String fileName) {// store the filename, read the specified file and convert it
         // to a two dimensional array of characters and store it in the grid field
