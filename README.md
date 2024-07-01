@@ -2,7 +2,7 @@
 | Score |
 |----------|
 Image of Score from original repository
-|<img src="Score.png" alt="Score" width="55" height="55" />|
+|<img src="Score.png" alt="Score" width="100" height="55" />|
 
 
 <<<<<<< HEAD
