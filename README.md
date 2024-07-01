@@ -1,3 +1,10 @@
+### DISCLAIMER: Autograding Result is not correctly shown. This repository was cloned to my public GitHub after successfully completing it as part of a University CS course. Credit for the creation of the assignment is https://github.com/WCU-CS-CooperLab
+| Score |
+|----------|
+Image of Score from original repository
+|<img src="Score.png" alt="Score" width="55" height="55" />|
+
+
 <<<<<<< HEAD
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10018193&assignment_repo_type=AssignmentRepo)
 # CSC 240 Computer Science III
