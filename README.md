@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10018193&assignment_repo_type=AssignmentRepo)
 # CSC 240 Computer Science III
 ### Homework 1  Jagged Grid Reader (for grid based games)
@@ -120,3 +121,6 @@ If `GameFileTester` prints `EXTRA CREDIT`, then you will see 1 extra credit poin
 
 
 
+=======
+# Jagged-Grid-Reader
+>>>>>>> 7e16ad69892d426354d4ca7c6af42a23f4b778f0
