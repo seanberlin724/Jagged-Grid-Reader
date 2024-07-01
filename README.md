@@ -1,8 +1,7 @@
 ### DISCLAIMER: Autograding Result is not correctly shown. This repository was cloned to my public GitHub after successfully completing it as part of a University CS course. Credit for the creation of the assignment is https://github.com/WCU-CS-CooperLab
-| Score |
+| Image of Score from Original Repository |
 |----------|
-Image of Score from original repository
-|<img src="Score.png" alt="Score" width="100" height="55" />|
+|<img src="Score.png" alt="Score" width="100" height="100" />|
 
 
 <<<<<<< HEAD
