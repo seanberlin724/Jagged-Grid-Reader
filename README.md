@@ -1,6 +1,6 @@
 ### DISCLAIMER: Autograding Result is not correctly shown. This repository was cloned to my public GitHub after successfully completing it as part of a University CS course. Credit for the creation of the assignment is https://github.com/WCU-CS-CooperLab
 | Image of Score from Original Repository |
-|--------------------------------------------------------------------------------------------|
+|--------|
 |<img src="Score.png" alt="Score" width="350" height="100" />|
 
 
